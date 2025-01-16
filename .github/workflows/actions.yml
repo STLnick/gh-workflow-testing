@@ -10,7 +10,7 @@ on:
 env:
   AWS_REGION: us-east-2                                 # AWS region
   ECR_REPOSITORY: gh-workflow-testing                   # Amazon ECR repository name
-  ECS_SERVICE: MY_ECS_SERVICE                           # Amazon ECS service name
+  ECS_SERVICE: MyTestService2                           # Amazon ECS service name
   ECS_CLUSTER: TestCluster                              # Amazon ECS cluster name
   ECS_TASK_DEFINITION: .aws/sample-task-definition.json # path to Amazon ECS task definition
   CONTAINER_NAME: fargate-app                           # name of the container in the containerDefinitions
