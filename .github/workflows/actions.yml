@@ -3,9 +3,9 @@ name: workflow-test
 on:
   push:
     branches:
-      - main
-      - stage
-      - dev
+      # - main
+      # - stage
+      # - dev
 
 env:
   AWS_REGION: us-east-2                                 # AWS region
